@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+TryExec=passmenu
+Exec=passmenu
+Terminal=false
+
+Name=passmenu
+GenericName=Password Manager
