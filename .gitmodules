@@ -10,6 +10,3 @@
 [submodule "Pictures/blackarch-artwork"]
 	path = Pictures/blackarch-artwork
 	url = https://github.com/BlackArch/blackarch-artwork
-[submodule ".oh-my-zsh"]
-	path = .oh-my-zsh
-	url = https://github.com/ohmyzsh/ohmyzsh
