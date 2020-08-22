@@ -13,3 +13,6 @@
 [submodule ".config/ohmyzsh"]
 	path = .config/ohmyzsh
 	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "Pictures/parrot-wallpapers"]
+	path = Pictures/parrot-wallpapers
+	url = https://github.com/ParrotSec/parrot-wallpapers
