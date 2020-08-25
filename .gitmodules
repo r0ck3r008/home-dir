@@ -16,3 +16,6 @@
 [submodule "Pictures/parrot-wallpapers"]
 	path = Pictures/parrot-wallpapers
 	url = https://github.com/ParrotSec/parrot-wallpapers
+[submodule "git/yay"]
+	path = git/yay
+	url = https://aur.archlinux.org/yay.git
