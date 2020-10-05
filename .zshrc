@@ -102,6 +102,7 @@ alias pacman='pacman --color=always'
 alias yay='yay --color=always'
 alias rgdb='rust-gdb'
 alias systemctlu='systemctl --user'
+alias ec='emacsclient'
 
 if which tmux >/dev/null 2>&1; then
 	# if no session is started, start a new session
