@@ -16,3 +16,6 @@
 [submodule "git/yay"]
 	path = git/yay
 	url = https://aur.archlinux.org/yay.git
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = git@github.com:r0ck3r008/nvim.git
