@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+TryExec=/home/naman/.local/bin/passmenu-rofi
+Exec=/home/naman/.local/bin/passmenu-rofi
+Terminal=false
+
+Name=passmenu-rofi
+GenericName=Password Manager
