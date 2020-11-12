@@ -8,8 +8,6 @@ export LC_ALL=en_US.UTF-8
 export EDITOR=/usr/bin/nvim
 export GOPATH=/home/naman/go
 export PATH=${PATH}:/home/naman/.local/bin:${GOPATH}/bin
-# Map Caps to escape
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -116,4 +114,8 @@ if which tmux >/dev/null 2>&1; then
     while test -z ${TMUX}; do
 	    tmux attach || exit
     done
+fi
+# Map Caps to escape
+if [ -n "$(xmodmap | awk '$1=="lock"{print $2}')" ]; then
+        xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 fi
