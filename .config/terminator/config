@@ -5,6 +5,10 @@
   tab_position = hidden
   inactive_color_offset = 1.0
 [keybindings]
+  go_up = <Alt>w
+  go_down = <Alt>s
+  go_left = <Alt>a
+  go_right = <Alt>d
   broadcast_off = <Shift><Alt>o
 [profiles]
   [[default]]
