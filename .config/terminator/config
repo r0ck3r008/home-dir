@@ -22,8 +22,8 @@
   split_horiz = None
   split_vert = None
   close_term = None
-  copy = None
-  paste = None
+  copy = <Primary><Shift>c
+  paste = <Primary><Shift>v
   toggle_scrollbar = None
   search = None
   line_up = None
