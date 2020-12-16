@@ -116,6 +116,6 @@ if which tmux >/dev/null 2>&1; then
     done
 fi
 # Map Caps to escape
-if [ -n "$(xmodmap | awk '$1=="lock"{print $2}')" ]; then
-        xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-fi
+#if [ -n "$(xmodmap | awk '$1=="lock"{print $2}')" ]; then
+#        xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+#fi
