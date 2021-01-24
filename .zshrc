@@ -106,6 +106,7 @@ alias rgdb='rust-gdb'
 alias systemctlu='systemctl --user'
 alias ec='emacsclient'
 alias em='emacs -nw'
+alias code='code --disable-gpu'
 
 if which tmux >/dev/null 2>&1; then
 	# if no session is started, start a new session
