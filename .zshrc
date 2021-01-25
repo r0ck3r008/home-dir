@@ -108,15 +108,13 @@ alias ec='emacsclient'
 alias em='emacs -nw'
 alias code='code --disable-gpu'
 
-if which tmux >/dev/null 2>&1; then
-	# if no session is started, start a new session
-	test -z ${TMUX} && tmux
+# if no session is started, start a new session
+test -z ${TMUX} && tmux
 
-    # when quitting tmux, try to attach
-    while test -z ${TMUX}; do
-	    tmux attach || exit
-    done
-fi
+# when quitting tmux, try to attach
+while test -z ${TMUX}; do
+tmux attach || exit
+done
 # Map Caps to escape
 #if [ -n "$(xmodmap | awk '$1=="lock"{print $2}')" ]; then
 #        xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
