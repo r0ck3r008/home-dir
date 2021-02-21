@@ -69,7 +69,7 @@
     background_type = transparent
     backspace_binding = automatic
     cursor_color = "#aaaaaa"
-    font = JetBrains Mono Medium 17
+    font = JetBrains Mono Medium 16
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_lines = 50000
