@@ -106,7 +106,6 @@ alias rgdb='rust-gdb'
 alias systemctlu='systemctl --user'
 alias ec='emacsclient'
 alias em='emacs -nw'
-alias code='code --disable-gpu'
 alias grep='grep -i'
 
 # if no session is started, start a new session
